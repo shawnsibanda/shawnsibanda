@@ -4688,20 +4688,6 @@ input, select, textarea {
 		}
 
 	}
-/* Mobile-friendly images */
-.post img,
-.post.featured img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+
 }
-@media screen and (max-width: 736px) {
-  .post.featured img {
-    width: 100%;
-  }
-}
-.post.featured .image,
-.post.featured .image img {
-  width: 100%;
-  max-width: 100%;
-}
+
